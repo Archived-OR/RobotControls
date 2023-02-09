@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		E12210802994447600FF219C /* RobotControlsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E122107F2994447600FF219C /* RobotControlsApp.swift */; };
-		E12210822994447600FF219C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12210812994447600FF219C /* ContentView.swift */; };
 		E12210842994447700FF219C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12210832994447700FF219C /* Assets.xcassets */; };
 		E12210872994447700FF219C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12210862994447700FF219C /* Preview Assets.xcassets */; };
+		E1466BB529944496005F2381 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BAD29944495005F2381 /* OverlayView.swift */; };
+		E1466BB629944496005F2381 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BAE29944495005F2381 /* InfoView.swift */; };
+		E1466BB729944496005F2381 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BAF29944496005F2381 /* SideBarView.swift */; };
+		E1466BB829944496005F2381 /* JoyStickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BB029944496005F2381 /* JoyStickView.swift */; };
+		E1466BB929944496005F2381 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BB129944496005F2381 /* ARViewController.swift */; };
+		E1466BBA29944496005F2381 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BB229944496005F2381 /* ContentView.swift */; };
+		E1466BBB29944496005F2381 /* Componet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BB429944496005F2381 /* Componet.swift */; };
+		E1466BBE299444D4005F2381 /* BLEViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BBD299444D4005F2381 /* BLEViewModel.swift */; };
+		E1466BC029944505005F2381 /* DeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BBF29944505005F2381 /* DeviceData.swift */; };
+		E1891B9D2994A2910032D809 /* DeviceCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1891B9C2994A2910032D809 /* DeviceCommand.swift */; };
+		E1891BA02994A8680032D809 /* Remote_Driving_Test.ino in Resources */ = {isa = PBXBuildFile; fileRef = E1891B9F2994A8680032D809 /* Remote_Driving_Test.ino */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E122107C2994447600FF219C /* RobotControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobotControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E122107F2994447600FF219C /* RobotControlsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotControlsApp.swift; sourceTree = "<group>"; };
-		E12210812994447600FF219C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E12210832994447700FF219C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E12210862994447700FF219C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1466BAD29944495005F2381 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		E1466BAE29944495005F2381 /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		E1466BAF29944496005F2381 /* SideBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		E1466BB029944496005F2381 /* JoyStickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoyStickView.swift; sourceTree = "<group>"; };
+		E1466BB129944496005F2381 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		E1466BB229944496005F2381 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1466BB429944496005F2381 /* Componet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Componet.swift; sourceTree = "<group>"; };
+		E1466BBD299444D4005F2381 /* BLEViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEViewModel.swift; sourceTree = "<group>"; };
+		E1466BBF29944505005F2381 /* DeviceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceData.swift; sourceTree = "<group>"; };
+		E1891B9C2994A2910032D809 /* DeviceCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCommand.swift; sourceTree = "<group>"; };
+		E1891B9F2994A8680032D809 /* Remote_Driving_Test.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Remote_Driving_Test.ino; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,7 @@
 		E12210732994447600FF219C = {
 			isa = PBXGroup;
 			children = (
+				E1891B9E2994A8680032D809 /* Remote_Driving_Test */,
 				E122107E2994447600FF219C /* RobotControls */,
 				E122107D2994447600FF219C /* Products */,
 			);
@@ -52,7 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				E122107F2994447600FF219C /* RobotControlsApp.swift */,
-				E12210812994447600FF219C /* ContentView.swift */,
+				E1466BBC299444B0005F2381 /* ViewModels */,
+				E1466BB329944496005F2381 /* Models */,
+				E1466BAC29944495005F2381 /* Views */,
 				E12210832994447700FF219C /* Assets.xcassets */,
 				E12210852994447700FF219C /* Preview Content */,
 			);
@@ -65,6 +88,45 @@
 				E12210862994447700FF219C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1466BAC29944495005F2381 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1466BB229944496005F2381 /* ContentView.swift */,
+				E1466BAD29944495005F2381 /* OverlayView.swift */,
+				E1466BAE29944495005F2381 /* InfoView.swift */,
+				E1466BAF29944496005F2381 /* SideBarView.swift */,
+				E1466BB029944496005F2381 /* JoyStickView.swift */,
+				E1466BB129944496005F2381 /* ARViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1466BB329944496005F2381 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E1466BB429944496005F2381 /* Componet.swift */,
+				E1891B9C2994A2910032D809 /* DeviceCommand.swift */,
+				E1466BBF29944505005F2381 /* DeviceData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E1466BBC299444B0005F2381 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E1466BBD299444D4005F2381 /* BLEViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E1891B9E2994A8680032D809 /* Remote_Driving_Test */ = {
+			isa = PBXGroup;
+			children = (
+				E1891B9F2994A8680032D809 /* Remote_Driving_Test.ino */,
+			);
+			path = Remote_Driving_Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E12210872994447700FF219C /* Preview Assets.xcassets in Resources */,
+				E1891BA02994A8680032D809 /* Remote_Driving_Test.ino in Resources */,
 				E12210842994447700FF219C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +200,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E12210822994447600FF219C /* ContentView.swift in Sources */,
+				E1466BB929944496005F2381 /* ARViewController.swift in Sources */,
+				E1466BBE299444D4005F2381 /* BLEViewModel.swift in Sources */,
+				E1466BB629944496005F2381 /* InfoView.swift in Sources */,
+				E1891B9D2994A2910032D809 /* DeviceCommand.swift in Sources */,
+				E1466BBA29944496005F2381 /* ContentView.swift in Sources */,
+				E1466BB529944496005F2381 /* OverlayView.swift in Sources */,
+				E1466BC029944505005F2381 /* DeviceData.swift in Sources */,
+				E1466BB829944496005F2381 /* JoyStickView.swift in Sources */,
+				E1466BBB29944496005F2381 /* Componet.swift in Sources */,
+				E1466BB729944496005F2381 /* SideBarView.swift in Sources */,
 				E12210802994447600FF219C /* RobotControlsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +342,8 @@
 				DEVELOPMENT_TEAM = 9NG3C5HP77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "To connect to the robot";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To see the robot";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +373,8 @@
 				DEVELOPMENT_TEAM = 9NG3C5HP77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "To connect to the robot";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To see the robot";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
