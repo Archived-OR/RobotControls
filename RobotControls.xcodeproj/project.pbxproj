@@ -16,7 +16,7 @@
 		E1466BB829944496005F2381 /* JoyStickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BB029944496005F2381 /* JoyStickView.swift */; };
 		E1466BB929944496005F2381 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BB129944496005F2381 /* ARViewController.swift */; };
 		E1466BBA29944496005F2381 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BB229944496005F2381 /* ContentView.swift */; };
-		E1466BBB29944496005F2381 /* Componet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BB429944496005F2381 /* Componet.swift */; };
+		E1466BBB29944496005F2381 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BB429944496005F2381 /* Component.swift */; };
 		E1466BBE299444D4005F2381 /* BLEViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BBD299444D4005F2381 /* BLEViewModel.swift */; };
 		E1466BC029944505005F2381 /* DeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1466BBF29944505005F2381 /* DeviceData.swift */; };
 		E1891B9D2994A2910032D809 /* DeviceCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1891B9C2994A2910032D809 /* DeviceCommand.swift */; };
@@ -34,7 +34,7 @@
 		E1466BB029944496005F2381 /* JoyStickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoyStickView.swift; sourceTree = "<group>"; };
 		E1466BB129944496005F2381 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		E1466BB229944496005F2381 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E1466BB429944496005F2381 /* Componet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Componet.swift; sourceTree = "<group>"; };
+		E1466BB429944496005F2381 /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
 		E1466BBD299444D4005F2381 /* BLEViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEViewModel.swift; sourceTree = "<group>"; };
 		E1466BBF29944505005F2381 /* DeviceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceData.swift; sourceTree = "<group>"; };
 		E1891B9C2994A2910032D809 /* DeviceCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCommand.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		E1466BB329944496005F2381 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E1466BB429944496005F2381 /* Componet.swift */,
+				E1466BB429944496005F2381 /* Component.swift */,
 				E1891B9C2994A2910032D809 /* DeviceCommand.swift */,
 				E1466BBF29944505005F2381 /* DeviceData.swift */,
 			);
@@ -208,7 +208,7 @@
 				E1466BB529944496005F2381 /* OverlayView.swift in Sources */,
 				E1466BC029944505005F2381 /* DeviceData.swift in Sources */,
 				E1466BB829944496005F2381 /* JoyStickView.swift in Sources */,
-				E1466BBB29944496005F2381 /* Componet.swift in Sources */,
+				E1466BBB29944496005F2381 /* Component.swift in Sources */,
 				E1466BB729944496005F2381 /* SideBarView.swift in Sources */,
 				E12210802994447600FF219C /* RobotControlsApp.swift in Sources */,
 			);

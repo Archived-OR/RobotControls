@@ -1,19 +1,19 @@
 import SwiftUI
 import CoreBluetooth
 
-struct Componet: Identifiable, Hashable {
+struct Component: Identifiable, Hashable {
     var id = UUID().uuidString
     var name = "BLE Module"
     var status = StatusType.Critical
-    var chacteristic: CBCharacteristic?
+    var characteristic: CBCharacteristic?
 }
 enum StatusType: String, Codable {
     case Critical
     case SubNominal
     case Nominal
 }
-extension Componet {
+extension Component {
     static let all = [
-        Componet(name: "Stepper"),
+        Component(name: "Stepper"),
     ]
 }

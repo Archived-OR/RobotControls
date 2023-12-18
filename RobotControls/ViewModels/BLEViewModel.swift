@@ -9,7 +9,7 @@ import SwiftUI
 import CoreBluetooth
 
 class BluetoothViewModel: NSObject, ObservableObject, CBCentralManagerDelegate, CBPeripheralDelegate {
-    @Published var componets = Componet.all
+    @Published var components = Component.all
     @Published var manager = CBCentralManager()
     @Published var pairedDevice: CBPeripheral? = nil
     @Published var pairedCharacteristic: CBCharacteristic? = nil
@@ -54,11 +54,6 @@ class BluetoothViewModel: NSObject, ObservableObject, CBCentralManagerDelegate, 
                     self.pairedCharacteristic = pairedCharacteristic
                 }
             }
-            
-            
-            
-            
-            
         }
     }
     
